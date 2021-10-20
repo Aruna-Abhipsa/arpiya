@@ -1,0 +1,126 @@
+.navbar-static-top{
+    text-align: center;
+}
+.nav-headtext{
+    font-size: 30px;
+    color: #fff;
+}
+
+a.logo img {
+    border-radius: 0px;
+    width: 100%;
+}
+
+/*a.logo {
+    width: 19% !important;
+    float: left !important;
+    height: 54px !important;
+
+}*/
+
+.main-header {
+    position: relative;
+    max-height: 100px;
+    z-index: 1030;
+    /*height: 65px;*/
+    width: 100%;
+    /*float: left;
+    background: #3c8dbc;*/
+}
+
+.text-center{
+    font-size: 30px;
+    color: #C31B02;
+}
+
+.login-header{
+    padding-left: 5%;
+    color: #C31B02;
+    font-size: 30px !important;
+}
+.login-page{
+    background: url(../images/ac.jpg) center top no-repeat;
+    width: 100%;
+    float: left;
+    background-size: cover;
+}
+.content-wrapper{
+    background: url(../images/ac.jpg) center top;
+}
+#message{
+    margin-bottom: 10px;
+}
+#message span{
+    float: right;
+}
+.success{
+    font: bold 11px Arial;
+    color: green;
+    background-color: limegreen;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.error{
+    font: bold 11px Arial;
+    color: brown;
+    background-color: #ea939378;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+fieldset {
+    padding: .35em .625em .75em;
+    margin: 0px 2px;
+    border: 1px solid silver;
+    margin-bottom: 5px; 
+}
+legend {
+    width: auto;
+    font-size: 17px;
+    border: 0;   
+    margin-bottom: 0px; 
+}
+.span-error {
+    color: red;
+}
+.mandatory-span{
+    color: red;
+}
+
+/* Tooltip */ 
+.tool {
+    position: relative;
+    float: right;
+    /*display: inline-block;*/
+    padding-right:5px;
+  }
+  .tool .fa {
+    font-size: 20px;
+}
+  .tool .tooltiptext {
+    visibility: hidden;
+    width: 700px;
+    background-color:#fff;
+    color: #000;
+    border-radius: 6px;
+    padding:10px;
+    position: absolute;
+    z-index: 999;
+    top:0;
+    border:2px solid #ccc;
+    right: 100%;
+  }
+  .tool:hover .tooltiptext {
+    visibility: visible;
+  }
+  /* Tooltip End */
+.check-radio{
+    float:left;
+    padding-right:10px;
+}
+.order-text{
+    float:left;
+    padding-right:10px;
+}
+td.disabled{
+    color: #777 !important;
+} 
